@@ -68,7 +68,7 @@ pre {
 
 /**
  * 1. Remove the gray background on active links in IE 10.
- * 2. Set the right cursor and the right background for links,buttons and checkboxes
+ * 2. Set the right cursor and the right background for links,buttons,checkboxes and submit buttons
  * 3. Remove the default blue border on browsers
  * 4. Remove the border on images inside links in IE 10.
  * 5. Correct the max width
@@ -78,7 +78,7 @@ a {
   background-color: transparent; /* 1 */
 }
 
-a,button {
+a,button,input[type="checkbox"],input[type="submit"] {
   cursor: pointer; /* 2 */
 }
 
@@ -333,5 +333,9 @@ template {
  */
 
 [hidden] {
+  display: none;
+}
+
+script,link {
   display: none;
 }
