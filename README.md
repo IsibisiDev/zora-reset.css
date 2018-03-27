@@ -13,7 +13,7 @@
 <p><strong>Download</strong></p>
 https://github.com/IsibisiDev/zora-reset.css/archive/master.zip
 
-# Browser support
+## Browser support
 
 * Chrome
 * Edge
