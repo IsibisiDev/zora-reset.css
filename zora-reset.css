@@ -7,19 +7,30 @@
    ========================================================================== */
 
 *, *:before *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
+ * 3. Correct the scrollbar bug on some browsers
+ * 4. Correct the box sizing
  */
 
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  -mos-text-size-adjust: 100%; /* 2 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  overflow-y: scroll; /* 3 */
+  box-sizing: border-box; /* 4 */
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
 }
 
 /* Sections
@@ -33,6 +44,16 @@ html {
 body {
   margin: 0; /* 1 */
   padding: 0; /* 1 */
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, form, label {
@@ -68,7 +89,7 @@ pre {
 
 /**
  * 1. Remove the gray background on active links in IE 10.
- * 2. Set the right cursor and the right background for links,buttons,checkboxes and submit buttons
+ * 2. Set the right cursor and the right background for links,buttons,checkboxes,submit buttons and upload files button
  * 3. Remove the default blue border on browsers
  * 4. Remove the border on images inside links in IE 10.
  * 5. Correct the max width
@@ -78,7 +99,7 @@ a {
   background-color: transparent; /* 1 */
 }
 
-a,button,input[type="checkbox"],input[type="submit"] {
+a,button,input[type="checkbox"],input[type="submit"],input[type="file"] {
   cursor: pointer; /* 2 */
 }
 
@@ -151,6 +172,10 @@ sub {
 
 sup {
   top: -0.5em;
+}
+
+ul {
+  list-style: none;
 }
 
 /* Forms
