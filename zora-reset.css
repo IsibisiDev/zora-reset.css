@@ -15,15 +15,13 @@
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
- * 3. Correct the scrollbar bug on some browsers
- * 4. Correct the box sizing
+ * 3. Correct the box sizing
  */
 
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  overflow-y: scroll; /* 3 */
-  box-sizing: border-box; /* 4 */
+  box-sizing: border-box; /* 3 */
 }
 
 html,body {
