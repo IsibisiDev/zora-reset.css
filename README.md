@@ -4,11 +4,11 @@
 <p><strong>CDN</strong></p>
 <p>Unminified version:</p>
 
-`https://cdn.rawgit.com/IsibisiDev/zora-reset.css/80c0e957/zora-reset.css`
+`https://rawgit.com/IsibisiDev/zora-reset.css/master/zora-reset.css`
 <br>
 <p>Minified Version:</p>
 
-`https://cdn.rawgit.com/IsibisiDev/zora-reset.css/80c0e957/zora-reset.min.css`
+`https://rawgit.com/IsibisiDev/zora-reset.css/master/zora-reset.min.css`
 <br>
 <p><strong>Download</strong></p>
 https://github.com/IsibisiDev/zora-reset.css/archive/master.zip
