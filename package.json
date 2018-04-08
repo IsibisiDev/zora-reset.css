@@ -1,16 +1,16 @@
-{  
-   "name":"zora-reset",
-   "version":"1.1",
-   "description":"A simple and modern CSS Reset",
-   "main":"zora-reset.css",
-   "files":[  
+{
+   "name": "zora-reset",
+   "version": "1.1",
+   "description": "A simple and modern CSS Reset",
+   "main": "zora-reset.css",
+   "files": [
       "LICENSE.md",
       "README.md",
       "zora-reset.css"
    ],
-   "license":"GNU General Public License v3.0",
-   "repository":"IsibisiDev/zora-reset.css",
-   "homepage":"http://isibisitgbots.altervista.org/blog",
-   "author":"IsibisiDev",
-   "bugs":"https://github.com/IsibisiDev/zora-reset.css/issues"
+   "license": "GNU General Public License v3.0",
+   "repository": "IsibisiDev/zora-reset.css",
+   "homepage": "http://isibisitgbots.altervista.org/blog",
+   "author": "IsibisiDev",
+   "bugs": "https://github.com/IsibisiDev/zora-reset.css/issues"
 }
