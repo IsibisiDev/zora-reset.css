@@ -3,6 +3,7 @@
 
 <p><strong>CDN</strong></p>
 <p>Unminified version:</p>
+
 ```html
 <link rel="stylesheet" href="https://rawgit.com/IsibisiDev/zora-reset.css/master/zora-reset.css" integrity="sha384-Cp9Wdg0/jwkIXCDkOrHYiDKUfLXtZiEK5ysnqtVRF4DBT2cAvRLYrWbVpcT6WRQo" crossorigin="anonymous">
 ```
