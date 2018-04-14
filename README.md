@@ -1,6 +1,8 @@
 # zora-reset.css
 <p>Zora Reset is a modern CSS Reset that fixes the most common bugs of various browsers. It is light and does not invade the development space.</p><br>
 
+## Get started
+You can use Zora CSS Reset via CDN or download it and integrate it directly on your site
 <p><strong>CDN</strong></p>
 <p>Unminified version:</p>
 
@@ -16,6 +18,9 @@
 <br>
 <p><strong>Download</strong></p>
 https://github.com/IsibisiDev/zora-reset.css/archive/master.zip
+
+## Need Help?
+If you need help you can ask [on the forum](http://isibisitgbots.altervista.org/forum/) or [open an issue](https://github.com/IsibisiDev/zora-reset.css/issues/new)
 
 ## Browser support
 
