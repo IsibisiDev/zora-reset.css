@@ -1,5 +1,5 @@
 # zora-reset.css
-<p>Zora Reset is a modern CSS Reset that fixes the most common bugs of various browsers. It is light and does not invade the development space.</p><br>
+<p>Zora Reset is a modern CSS Reset that fixes the most common bugs of various browsers. It is light and does not invade the development space.</p>
 
 ## Get started
 You can use Zora CSS Reset via CDN or download it and integrate it directly on your site
