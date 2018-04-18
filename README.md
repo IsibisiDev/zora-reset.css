@@ -17,7 +17,7 @@ You can use Zora CSS Reset via CDN or download it and integrate it directly on y
 ```
 <br>
 <p><strong>Download</strong></p>
-[https://github.com/IsibisiDev/zora-reset.css/archive/master.zip](https://github.com/IsibisiDev/zora-reset.css/archive/master.zip)
+[Click to download](https://github.com/IsibisiDev/zora-reset.css/archive/master.zip)
 
 ## Need Help?
 If you need help you can ask [on the forum](http://isibisitgbots.altervista.org/forum/) or [open an issue](https://github.com/IsibisiDev/zora-reset.css/issues/new)
