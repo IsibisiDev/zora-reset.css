@@ -7,13 +7,13 @@ You can use Zora CSS Reset via CDN or download it and integrate it directly on y
 <p>Unminified version:</p>
 
 ```html
-<link rel="stylesheet" href="https://rawgit.com/IsibisiDev/zora-reset.css/master/zora-reset.css" integrity="sha384-Cp9Wdg0/jwkIXCDkOrHYiDKUfLXtZiEK5ysnqtVRF4DBT2cAvRLYrWbVpcT6WRQo" crossorigin="anonymous">
+<link rel="stylesheet" href="https://rawgit.com/IsibisiDev/zora-reset.css/master/zora-reset.css" integrity="sha384-CDCeawHryUyTXXbzmbu92H7Z1cqIvER/Zz2Z2Kn8u7fbuRaskBDRrewaJFiyjO1D" crossorigin="anonymous">
 ```
 <br>
 <p>Minified Version:</p>
 
 ```html
-<link rel="stylesheet" href="https://rawgit.com/IsibisiDev/zora-reset.css/master/zora-reset.min.css" integrity="sha384-baOFqksGwksnMWlaMBki79fVYK1/3KB6hKiyKIu3vuMCFOim5ym4COilYU9yhUIs" crossorigin="anonymous">
+<link rel="stylesheet" href="https://rawgit.com/IsibisiDev/zora-reset.css/master/zora-reset.min.css" integrity="sha384-yKvSQbnNdsty4fo0bfv6hJ2fe7YICAhRLZdJosUohrMOB3S2Tzla+i82igDxR/DX" crossorigin="anonymous">
 ```
 <br>
 <p><strong>Download</strong></p>
