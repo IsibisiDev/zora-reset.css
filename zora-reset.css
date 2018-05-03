@@ -1,6 +1,5 @@
 /*!
- * zora-reset.css v1.1 | GNU General Public License v3.0 | github.com/IsibisiDev/zora-reset.css
- * Inspired by Normalize.css
+ * zora-reset.css v1.2 | GNU General Public License v3.0 | github.com/IsibisiDev/zora-reset.css
 */
 
 /* Document
@@ -37,9 +36,9 @@ html,body {
  * 2. Display-role reset for older browsers 
  */
 
-body {
-  margin: 0; /* 1 */
-  padding: 0; /* 1 */
+body, body * { /* 1 */
+  margin: 0;
+  padding: 0;
 }
 
 /**
@@ -65,6 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
  */
 
 hr {
+  -webkit-box-sizing: content-box; /* 1 */
   box-sizing: content-box; /* 1 */
   height: 0; /* 1 */
   overflow: visible; /* 2 */
@@ -85,10 +85,8 @@ pre {
 
 /**
  * 1. Remove the gray background on active links in IE 10.
- * 2. Set the right cursor for links,buttons,checkboxes,submit buttons and upload files button
+ * 2. Set the right cursor for links,buttons,checkboxes,submit button and upload files button
  * 3. Remove the default blue border on browsers
- * 4. Remove the border on images inside links in IE 10.
- * 5. Correct the max width
  */
 
 a {
@@ -99,37 +97,33 @@ a,button,input[type="checkbox"],input[type="submit"],input[type="file"] {
   cursor: pointer; /* 2 */
 }
 
-button:focus {
+button:focus,input:focus {
   outline: 0; /* 3 */
-}
-
-img {
-  max-width: 100%; /* 5 */
-  border-style: none; /* 4 */
-  height: auto;
 }
 
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ * 3. Set help cursor for title attribute
  */
 
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline dotted; /* 2 */
+  cursor: help; /* 3 */
 }
 
 /**
- * Add the correct font weight in Chrome, Edge, and Safari.
+ * 1. Add the correct font weight in Chrome, Edge, and Safari.
+ * 2. Add the correct font style to <i> and <em> elements
  */
 
-b, strong {
-  font-weight: bolder;
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: bolder; /* 1 */
 }
 
 i,em {
-  font-style: italic;
-  font-weight: normal;
+  font-style: italic; /* 2 */
 }
 
 /**
@@ -170,8 +164,63 @@ sup {
   top: -0.5em;
 }
 
-ul {
+ul, ol {
   list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  table-layout: fixed;
+  margin-bottom: 1.4em;
+  width: 100%;  
+}
+
+th {
+  font-weight: bold;
+}
+
+th, td, caption {
+  padding: 4px 10px 4px 5px;
+}
+
+pre {
+  margin: 1.5em 0;
+  white-space: pre;
+}
+
+blockquote {
+  margin: 0 1.5em 1.5em 1.5em;
+}
+
+cite {
+  font-style: italic;
+}
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * 1. Remove the border on images inside links in IE 10.
+ * 2. Correct the max width
+ * 3. Remove default border on iframes
+ */
+
+img {
+  border-style: none; /* 1 */
+  max-width: 100%; /* 2 */
+  height: auto;
+}
+
+iframe {
+  border: none; /* 3 */
 }
 
 /* Forms
@@ -246,6 +295,7 @@ fieldset {
  */
 
 legend {
+  -webkit-box-sizing: border-box; /* 1 */
   box-sizing: border-box; /* 1 */
   color: inherit; /* 2 */
   display: table; /* 1 */
@@ -276,6 +326,7 @@ textarea {
  */
 
 [type="checkbox"], [type="radio"] {
+  -webkit-box-sizing: border-box; /* 1 */
   box-sizing: border-box; /* 1 */
   padding: 0; /* 2 */
 }
@@ -332,10 +383,6 @@ details {
 
 summary {
   display: list-item;
-}
-
-ul,ol {
-  display: block;
 }
 
 /* Misc
