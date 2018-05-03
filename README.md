@@ -16,7 +16,7 @@ Unminified version:
 Minified Version:
 
 ```html
-<link rel="stylesheet" href="https://rawgit.com/IsibisiDev/zora-reset.css/master/zora-reset.min.css" integrity="sha384-htvRfyPTZ/KM9HpnzoMHqmt87d1itQnIM159eJGEat1nOCdgAXI0v0mX+xBFcXue" crossorigin="anonymous">
+<link rel="stylesheet" href="https://rawgit.com/IsibisiDev/zora-reset.css/master/zora-reset.min.css" integrity="sha384-E94EYeyCVdFX2o3Ho+XdayvvgPkQxYbp4FnKlK1MkE5d7G9aM36WmjEXJJI9gPkG" crossorigin="anonymous">
 ```  
 
 **Download**
