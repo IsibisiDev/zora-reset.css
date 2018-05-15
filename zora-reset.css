@@ -1,4 +1,4 @@
-/*! zora-reset.css v1.2 | GNU General Public License v3.0 | github.com/IsibisiDev/zora-reset.css */
+/*! zora-reset.css v1.3.0 | GNU General Public License v3.0 | github.com/IsibisiDev/zora-reset.css */
 
 /* Document
    ========================================================================== */
@@ -13,19 +13,21 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  * 3. Correct the box sizing
+ * 4. Set default font family to sans-serif.
  */
 
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
   box-sizing: border-box; /* 3 */
+  font-family: sans-serif; /* 4 */
 }
 
 html,body {
   min-height: 100vh;
   max-height: 100vh;
-  min-width: 100vw;
-  max-width: 100vw;
+  min-width: 100%;
+  max-width: 100%;
 }
 
 /* Sections
@@ -51,7 +53,7 @@ h1 {
   margin: 0.67em 0;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, form, label {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, form, label, main {
   display: block; /* 2 */
 }
 
@@ -72,11 +74,13 @@ hr {
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
+ * 3. Correcting white space for text inside the <pre> tag
  */
 
 pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
+  white-space: pre-wrap; /* 3 */
 }
 
 /* Text-level semantics
@@ -84,7 +88,7 @@ pre {
 
 /**
  * 1. Remove the gray background on active links in IE 10.
- * 2. Set the right cursor for links,buttons,checkboxes,submit button and upload files button
+ * 2. Set the right cursor for links,buttons,checkboxes,submit button, upload files button and input button
  * 3. Remove the default blue border on browsers
  */
 
@@ -92,11 +96,11 @@ a {
   background-color: transparent; /* 1 */
 }
 
-a,button,input[type="checkbox"],input[type="submit"],input[type="file"] {
+a,button,input[type="checkbox"],input[type="submit"],input[type="file"],input[type="button"] {
   cursor: pointer; /* 2 */
 }
 
-button:focus,input:focus {
+button:focus,input:focus,input[type="button"]:focus,select:focus {
   outline: 0; /* 3 */
 }
 
@@ -121,7 +125,7 @@ b,strong {
   font-weight: bolder; /* 1 */
 }
 
-i,em {
+i,cite,em,var,address,dfn {
   font-style: italic; /* 2 */
 }
 
@@ -170,9 +174,7 @@ ul, ol {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-  table-layout: fixed;
   margin-bottom: 1.4em;
-  width: 100%;  
 }
 
 th {
@@ -183,17 +185,8 @@ th, td, caption {
   padding: 4px 10px 4px 5px;
 }
 
-pre {
-  margin: 1.5em 0;
-  white-space: pre;
-}
-
 blockquote {
   margin: 0 1.5em 1.5em 1.5em;
-}
-
-cite {
-  font-style: italic;
 }
 
 /* Embedded content
@@ -223,6 +216,7 @@ iframe {
  */
 
 button, input, optgroup, select, textarea {
+  font-family: inherit; /* 1 */
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
