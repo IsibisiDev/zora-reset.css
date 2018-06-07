@@ -1,4 +1,4 @@
-/*! zora-reset.css v1.3.0 | GNU General Public License v3.0 | github.com/IsibisiDev/zora-reset.css */
+/*! zora-reset.css v1.3.1 | GNU General Public License v3.0 | github.com/IsibisiDev/zora-reset.css */
 
 /* Document
    ========================================================================== */
@@ -12,7 +12,7 @@
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
- * 3. Correct the box sizing
+ * 3. Correct the box sizing.
  * 4. Set default font family to sans-serif.
  */
 
@@ -24,10 +24,12 @@ html {
 }
 
 html,body {
-  min-height: 100vh;
-  max-height: 100vh;
+  width: 100%; 
+  height: 100%;
   min-width: 100%;
-  max-width: 100%;
+  max-width: 100%;  
+  min-height: 100%;
+  max-height: 100%;
 }
 
 /* Sections
@@ -35,7 +37,7 @@ html,body {
 
 /**
  * 1. Remove the margin and padding in all browsers.
- * 2. Display-role reset for older browsers 
+ * 2. Display-role reset for older browsers.
  */
 
 body { /* 1 */
@@ -74,13 +76,11 @@ hr {
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
- * 3. Correcting white space for text inside the <pre> tag
  */
 
 pre {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
-  white-space: pre-wrap; /* 3 */
 }
 
 /* Text-level semantics
@@ -88,26 +88,26 @@ pre {
 
 /**
  * 1. Remove the gray background on active links in IE 10.
- * 2. Set the right cursor for links,buttons,checkboxes,submit button, upload files button and input button
- * 3. Remove the default blue border on browsers
+ * 2. Set the right cursor for links,buttons,checkboxes,submit button, upload files button, input button and input reset button.
+ * 3. Remove the default blue border on browsers.
  */
 
 a {
   background-color: transparent; /* 1 */
 }
 
-a,button,input[type="checkbox"],input[type="submit"],input[type="file"],input[type="button"] {
+a,button,input[type="checkbox"],input[type="submit"],input[type="file"],input[type="button"],input[type="reset"] {
   cursor: pointer; /* 2 */
 }
 
-button:focus,input:focus,input[type="button"]:focus,select:focus {
+button:focus,input:focus,input[type="button"]:focus,select:focus,textarea:focus,datalist:focus {
   outline: 0; /* 3 */
 }
 
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- * 3. Set help cursor for title attribute
+ * 3. Set help cursor for title attribute.
  */
 
 abbr[title] {
@@ -118,7 +118,7 @@ abbr[title] {
 
 /**
  * 1. Add the correct font weight in Chrome, Edge, and Safari.
- * 2. Add the correct font style to <i> and <em> elements
+ * 2. Add the correct font style to <i>, <em>, <var>, <address> and <dfn> elements.
  */
 
 b,strong {
@@ -167,23 +167,45 @@ sup {
   top: -0.5em;
 }
 
+/**
+* Correct list styles.
+*/
+
 ul, ol {
   list-style: none;
 }
 
+/**
+* 1. Correct border collapsing.
+* 2. Correct border spacing.
+* 3. Add bottom margin to tables.
+*/
+
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  margin-bottom: 1.4em;
+  border-collapse: collapse; /* 1 */
+  border-spacing: 0; /* 2 */
+  margin-bottom: 1.4em; /* 3 */
 }
+
+/**
+* Add the correct font weight to table headers.
+*/
 
 th {
   font-weight: bold;
 }
 
+/**
+* Add padding to table cells.
+*/
+
 th, td, caption {
   padding: 4px 10px 4px 5px;
 }
+
+/**
+* Add padding to quotes block.
+*/
 
 blockquote {
   margin: 0 1.5em 1.5em 1.5em;
@@ -194,14 +216,16 @@ blockquote {
 
 /**
  * 1. Remove the border on images inside links in IE 10.
- * 2. Correct the max width
- * 3. Remove default border on iframes
+ * 2. Correct the max width.
+ * 3. Remove default border on iframes.
+ * 4. Fix vertical align.
  */
 
 img {
   border-style: none; /* 1 */
   max-width: 100%; /* 2 */
   height: auto;
+  vertical-align: middle; /* 4 */
 }
 
 iframe {
