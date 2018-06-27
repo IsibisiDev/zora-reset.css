@@ -1,48 +1,50 @@
-/*! zora-reset.css v1.3.1 | GNU General Public License v3.0 | github.com/IsibisiDev/zora-reset.css */
+/*! zora-reset.css v1.3.2 | GNU General Public License v3.0 | github.com/IsibisiDev/zora-reset.css */
 
 /* Document
    ========================================================================== */
 
-*, *:before *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
-  box-sizing: inherit;
-}
-
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
- * 3. Correct the box sizing.
- * 4. Set default font family to sans-serif.
+ * 3. Correct the box sizing (optionated).
+ * 4. Correct the dimensions of html and body elements.
  */
 
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
+  -ms-text-size-adjust: 100%; /* 2 */
   box-sizing: border-box; /* 3 */
-  font-family: sans-serif; /* 4 */
 }
 
-html,body {
-  width: 100%; 
+*, *:before *:after { /* 3 */
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html, body { /* 4 */
+  width: 100%;
   height: 100%;
-  min-width: 100%;
-  max-width: 100%;  
-  min-height: 100%;
-  max-height: 100%;
 }
 
 /* Sections
    ========================================================================== */
 
 /**
- * 1. Remove the margin and padding in all browsers.
- * 2. Display-role reset for older browsers.
+ * Remove the margin in all browsers.
  */
 
-body { /* 1 */
+body {
   margin: 0;
-  padding: 0;
+}
+
+/**
+ * Correct `block` display not defined for any HTML5 element in IE.
+ */
+
+article, aside, footer, header, hgroup, main, nav, section, main, figcaption, figure {
+  display: block; /* 2 */
 }
 
 /**
@@ -53,10 +55,6 @@ body { /* 1 */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
-}
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, form, label, main {
-  display: block; /* 2 */
 }
 
 /* Grouping content
@@ -88,45 +86,49 @@ pre {
 
 /**
  * 1. Remove the gray background on active links in IE 10.
- * 2. Set the right cursor for links,buttons,checkboxes,submit button, upload files button, input button and input reset button.
- * 3. Remove the default blue border on browsers.
+ * 2. Add the correct cursor for links, buttons, checkboxes, submit button, 
+ * upload button, input button and reset button (optionated).
+ * 3. Remove the default blue border of some elements on browsers.
  */
 
 a {
   background-color: transparent; /* 1 */
 }
 
-a,button,input[type="checkbox"],input[type="submit"],input[type="file"],input[type="button"],input[type="reset"] {
+a, button, [type="checkbox"], [type="submit"], [type="file"], [type="button"],
+[type="reset"], [role="button"] {
   cursor: pointer; /* 2 */
 }
 
-button:focus,input:focus,input[type="button"]:focus,select:focus,textarea:focus,datalist:focus {
+button:focus, input:focus, [type="button"]:focus, select:focus, textarea:focus,
+datalist:focus {
   outline: 0; /* 3 */
 }
 
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- * 3. Set help cursor for title attribute.
  */
 
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline dotted; /* 2 */
-  cursor: help; /* 3 */
 }
 
 /**
- * 1. Add the correct font weight in Chrome, Edge, and Safari.
- * 2. Add the correct font style to <i>, <em>, <var>, <address> and <dfn> elements.
+ * Add the correct font weight in Chrome, Edge, and Safari.
  */
 
-b,strong {
-  font-weight: bolder; /* 1 */
+b, strong {
+  font-weight: bolder;
 }
 
-i,cite,em,var,address,dfn {
-  font-style: italic; /* 2 */
+/**
+ * Add the correct font style to i, cite, em, var, address and dfn tags.
+ */
+
+i, cite, em, var, address, dfn {
+  font-style: italic;
 }
 
 /**
@@ -167,48 +169,15 @@ sup {
   top: -0.5em;
 }
 
-/**
-* Correct list styles.
-*/
-
-ul, ol {
-  list-style: none;
-}
+/* Tabular data
+ * ========================================================================== */
 
 /**
-* 1. Correct border collapsing.
-* 2. Correct border spacing.
-* 3. Add bottom margin to tables.
-*/
+ * Collapse border spacing in all browsers (optionated).
+ */
 
 table {
-  border-collapse: collapse; /* 1 */
-  border-spacing: 0; /* 2 */
-  margin-bottom: 1.4em; /* 3 */
-}
-
-/**
-* Add the correct font weight to table headers.
-*/
-
-th {
-  font-weight: bold;
-}
-
-/**
-* Add padding to table cells.
-*/
-
-th, td, caption {
-  padding: 4px 10px 4px 5px;
-}
-
-/**
-* Add padding to quotes block.
-*/
-
-blockquote {
-  margin: 0 1.5em 1.5em 1.5em;
+  border-collapse: collapse;
 }
 
 /* Embedded content
@@ -216,20 +185,32 @@ blockquote {
 
 /**
  * 1. Remove the border on images inside links in IE 10.
- * 2. Correct the max width.
- * 3. Remove default border on iframes.
- * 4. Fix vertical align.
+ * 2. Remove bottom spacing under element.
+ * 3. Remove default border on iframes. 
+ * 4. Add responsive sizes for media content.
  */
 
 img {
   border-style: none; /* 1 */
-  max-width: 100%; /* 2 */
-  height: auto;
-  vertical-align: middle; /* 4 */
 }
 
 iframe {
-  border: none; /* 3 */
+  border: 0; /* 3 */
+}
+
+img, video, audio, embed, iframe, object {
+  height: auto; /* 4 */
+  max-width: 100%; /* 4 */
+  vertical-align: middle; /* 2 */
+}
+
+/** 
+* Add the correct display in iOS 4-7.
+*/
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
 }
 
 /* Forms
@@ -275,7 +256,8 @@ button, [type="button"], [type="reset"], [type="submit"] {
  * Remove the inner border and padding in Firefox.
  */
 
-button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
+button::-moz-focus-inner, [type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner {
   border-style: none;
   padding: 0;
 }
@@ -284,7 +266,8 @@ button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-mo
  * Restore the focus styles unset by the previous rule.
  */
 
-button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
+button:-moz-focusring, [type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring {
   outline: 1px dotted;
 }
 
@@ -373,6 +356,7 @@ textarea {
 ::-webkit-file-upload-button {
   -webkit-appearance: button; /* 1 */
   font: inherit; /* 2 */
+}
 
 /* Interactive
    ========================================================================== */
@@ -381,33 +365,38 @@ textarea {
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 
-details {
+details, summary {
   display: block;
 }
 
-/*
- * Add the correct display in all browsers.
- */
+dialog {
+  position: absolute;
+  left: 0; right: 0;
+  width: -moz-fit-content;
+  width: -webkit-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: -webkit-fit-content;
+  height: fit-content;
+  margin: auto;
+  border: solid;
+  padding: 1em;
+  background: white;
+  color: black;
+  display: block;
+}
 
-summary {
-  display: list-item;
+dialog:not([open]) {
+  display: none;
 }
 
 /* Misc
    ========================================================================== */
 
 /**
- * Add the correct display in IE 10+.
+ * Add the correct display in IE 10 and IE 10+.
  */
 
-template {
-  display: none;
-}
-
-/**
- * Add the correct display in IE 10.
- */
-
-[hidden] {
+[hidden], template {
   display: none;
 }
