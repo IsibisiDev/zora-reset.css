@@ -1,6 +1,6 @@
 # Zora CSS Reset
 
-Zora Reset is a modern CSS Reset that fixes the most common bugs of various browsers. It is light and does not invade the development space.
+Zora Reset is a modern CSS Reset that correct the most common bugs in modern browsers without changing the useful default settings. It is light and does not invade the development space.
 
 ## Get started
 You can use Zora CSS Reset via CDN or download it and integrate it directly on your site
@@ -10,13 +10,13 @@ You can use Zora CSS Reset via CDN or download it and integrate it directly on y
 Unminified version:
 
 ```html
-<link rel="stylesheet" href="https://rawgit.com/IsibisiDev/zora-reset.css/master/zora-reset.css" integrity="sha384-eCxCpudlXZVWkLnm1d0ESA6X6Hwrkn0i7ZPWl7uwx9kwOF7N6eH1KEqbdNJEMJVB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/IsibisiDev/zora-reset.css@1/zora-reset.css" integrity="sha384-eCxCpudlXZVWkLnm1d0ESA6X6Hwrkn0i7ZPWl7uwx9kwOF7N6eH1KEqbdNJEMJVB" crossorigin="anonymous">
 ```  
 
 Minified Version:
 
 ```html
-<link rel="stylesheet" href="https://rawgit.com/IsibisiDev/zora-reset.css/master/zora-reset.min.css" integrity="sha384-AOdutQzT3JZSUqBFuEoWrG/zj76YsDG2yGleQKDOK8N5Nf1fxH7WXypkCmWkUKhg" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/IsibisiDev/zora-reset.css@1/zora-reset.min.css" integrity="sha384-AOdutQzT3JZSUqBFuEoWrG/zj76YsDG2yGleQKDOK8N5Nf1fxH7WXypkCmWkUKhg" crossorigin="anonymous">
 ```  
 
 **Download**
