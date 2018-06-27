@@ -18,14 +18,26 @@
   "files": [
     "LICENSE.md",
     "README.md",
-    "zora-reset.css"
+    "zora-reset.css",
+    "zora-reset.min.css"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IsibisiDev/zora-reset.css.git"
   },
-  "license": "GNU General Public License v3.0",
+  "license": "GPL-3.0",
   "homepage": "https://isibisidev.github.io/zora-reset.css/",
   "author": "IsibisiDev",
   "bugs": "https://github.com/IsibisiDev/zora-reset.css/issues"
+},
+  "dependencies": {
+    "JSONStream": "^1.3.3",
+    "ajv": "^6.5.1",
+    "autoprefixer": "^8.6.4",
+    "camelcase": "^5.0.0",
+    "stylelint": "^9.3.0",
+    "stylelint-config-standard": "^18.2.0"
+  },
+  "devDependencies": {}
 }
+
