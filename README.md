@@ -11,14 +11,15 @@ You can use Zora CSS Reset via CDN or download it and integrate it directly on y
 Unminified version:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/IsibisiDev/zora-reset.css@1.3.2/zora-reset.css" integrity="sha384-eCxCpudlXZVWkLnm1d0ESA6X6Hwrkn0i7ZPWl7uwx9kwOF7N6eH1KEqbdNJEMJVB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zorareset.css@1.3.2/zora-reset.css" integrity="sha384-cYajUzHOAr9+vR6dSqgteHXoPVSqjKANJSPMpgGv7z+jz22oliUqcgtDU7y+mxci" crossorigin="anonymous">
 ```  
 
 Minified Version:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/IsibisiDev/zora-reset.css@1.3.2/zora-reset.min.css" integrity="sha384-AOdutQzT3JZSUqBFuEoWrG/zj76YsDG2yGleQKDOK8N5Nf1fxH7WXypkCmWkUKhg" crossorigin="anonymous">
-```  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zorareset.css@1.3.2/zora-reset.min.css" integrity="sha384-zDE7yRSKeDKeneZ1Jd7ngQxtkfYQNiIn6USgWP0oFtv2W7PwWNmQWDDolatdhWRJ" crossorigin="anonymous">
+```
+or use [unpkg](https://unpkg.com/zorareset.css@1.3.2/) CDN
 
 **Download**
 
