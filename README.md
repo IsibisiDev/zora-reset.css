@@ -1,5 +1,5 @@
 # Zora CSS Reset
-[![Build Status](https://travis-ci.org/IsibisiDev/zora-reset.css.svg?branch=master)](https://travis-ci.org/IsibisiDev/zora-reset.css)
+[![Build Status](https://travis-ci.org/IsibisiDev/zora-reset.css.svg?branch=master)](https://travis-ci.org/IsibisiDev/zora-reset.css) [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 Zora Reset is a modern CSS Reset that correct the most common bugs in modern browsers without changing the useful default settings. It is light and does not invade the development space.
 
