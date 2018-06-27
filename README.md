@@ -10,13 +10,13 @@ You can use Zora CSS Reset via CDN or download it and integrate it directly on y
 Unminified version:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/IsibisiDev/zora-reset.css@1/zora-reset.css" integrity="sha384-eCxCpudlXZVWkLnm1d0ESA6X6Hwrkn0i7ZPWl7uwx9kwOF7N6eH1KEqbdNJEMJVB" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/IsibisiDev/zora-reset.css@1.3.2/zora-reset.css" integrity="sha384-eCxCpudlXZVWkLnm1d0ESA6X6Hwrkn0i7ZPWl7uwx9kwOF7N6eH1KEqbdNJEMJVB" crossorigin="anonymous">
 ```  
 
 Minified Version:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/IsibisiDev/zora-reset.css@1/zora-reset.min.css" integrity="sha384-AOdutQzT3JZSUqBFuEoWrG/zj76YsDG2yGleQKDOK8N5Nf1fxH7WXypkCmWkUKhg" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/IsibisiDev/zora-reset.css@1.3.2/zora-reset.min.css" integrity="sha384-AOdutQzT3JZSUqBFuEoWrG/zj76YsDG2yGleQKDOK8N5Nf1fxH7WXypkCmWkUKhg" crossorigin="anonymous">
 ```  
 
 **Download**
