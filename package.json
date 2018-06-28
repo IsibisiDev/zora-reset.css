@@ -1,9 +1,11 @@
 {
-  "name": "zora-reset.css",
+  "name": "zorareset.css",
   "title": "Zora CSS Reset",
+  "author": "IsibisiDev",
   "version": "1.3.2",
   "description": "A simple and modern CSS Reset",
   "main": "zora-reset.css",
+  "homepage": "https://isibisidev.github.io/zora-reset.css/",
   "keywords": [
     "css",
     "reset",
@@ -15,21 +17,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "license": "MIT",
   "files": [
     "LICENSE.md",
     "README.md",
     "zora-reset.css",
-    "zora-reset.min.css"
+    "zora-reset.min.css",
+    "package.json"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IsibisiDev/zora-reset.css.git"
+    "url": "git://github.com/IsibisiDev/zora-reset.css.git"
   },
-  "license": "MIT",
-  "homepage": "https://isibisidev.github.io/zora-reset.css/",
-  "author": "IsibisiDev",
-  "bugs": "https://github.com/IsibisiDev/zora-reset.css/issues"
-},
+  "bugs": {
+    "url": "https://github.com/IsibisiDev/zora-reset.css/issues"
+  },
   "dependencies": {
     "JSONStream": "^1.3.3",
     "ajv": "^6.5.1",
@@ -40,4 +42,3 @@
   },
   "devDependencies": {}
 }
-
