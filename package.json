@@ -25,7 +25,7 @@
     "type": "git",
     "url": "git+https://github.com/IsibisiDev/zora-reset.css.git"
   },
-  "license": "GPL-3.0",
+  "license": "MIT",
   "homepage": "https://isibisidev.github.io/zora-reset.css/",
   "author": "IsibisiDev",
   "bugs": "https://github.com/IsibisiDev/zora-reset.css/issues"
