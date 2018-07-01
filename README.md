@@ -6,7 +6,7 @@ Zora Reset is a modern CSS Reset that correct the most common bugs in modern bro
 ## Features
 
 - Support new HTML 5 Elements;
-- Correct the sizing box;
+- Correct the box sizing;
 - All points are documented describing what happens in that portion of the code;
 - Compatible with all major browsers IE8+, Chrome, Opera, Firefox and Edge;
 - Improve usability with minimal changes.
