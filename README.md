@@ -3,6 +3,14 @@
 
 Zora Reset is a modern CSS Reset that correct the most common bugs in modern browsers without changing the useful default settings. It is light and does not invade the development space.
 
+## Features
+
+- Support new HTML 5 Elements;
+- Correct the sizing box;
+- All points are documented describing what happens in that portion of the code;
+- Compatible with all major browsers IE8+, Chrome, Opera, Firefox and Edge;
+- Improve usability with minimal changes.
+
 ## Get started
 You can use Zora CSS Reset via CDN or download it and integrate it directly on your site
 
@@ -35,3 +43,9 @@ If you need help you can ask [on the forum](http://isibisitgbots.altervista.org/
 * Internet Explorer 10+
 * Safari 8+
 * Opera
+
+## Contributing
+Please read [CONTRIBUTING.md](https://github.com/IsibisiDev/zora-reset.css/blob/master/CONTRIBUTING.md) file for details on our code of conduct, and the process for submitting pull requests.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/IsibisiDev/zora-reset.css/blob/master/LICENSE) file for details.
