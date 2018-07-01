@@ -1,4 +1,4 @@
-/*! zora-reset.css v1.3.2 | GNU General Public License v3.0 | github.com/IsibisiDev/zora-reset.css */
+/*! zora-reset.css v1.3.3 | MIT License | github.com/IsibisiDev/zora-reset.css */
 
 /* Document
    ========================================================================== */
@@ -7,13 +7,11 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  * 3. Correct the box sizing (optionated).
- * 4. Correct the dimensions of html and body elements.
  */
 
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
-  -ms-text-size-adjust: 100%; /* 2 */
   box-sizing: border-box; /* 3 */
 }
 
@@ -21,11 +19,6 @@ html {
   -webkit-box-sizing: inherit;
   -moz-box-sizing: inherit;
   box-sizing: inherit;
-}
-
-html, body { /* 4 */
-  width: 100%;
-  height: 100%;
 }
 
 /* Sections
@@ -43,7 +36,7 @@ body {
  * Correct `block` display not defined for any HTML5 element in IE.
  */
 
-article, aside, footer, header, hgroup, main, nav, section, main, figcaption, figure {
+article, aside, footer, header, hgroup, main, nav, section, figcaption, figure {
   display: block; /* 2 */
 }
 
@@ -124,7 +117,7 @@ b, strong {
 }
 
 /**
- * Add the correct font style to i, cite, em, var, address and dfn tags.
+ * Add the correct font style in all browsers.
  */
 
 i, cite, em, var, address, dfn {
@@ -188,6 +181,7 @@ table {
  * 2. Remove bottom spacing under element.
  * 3. Remove default border on iframes. 
  * 4. Add responsive sizes for media content.
+ * 5. Add the correct display in IE 8+ and Opera Mini.
  */
 
 img {
@@ -204,17 +198,14 @@ img, video, audio, embed, iframe, object {
   vertical-align: middle; /* 2 */
 }
 
-/** 
-* Add the correct display in iOS 4-7.
-*/
-
-audio:not([controls]) {
+audio:not([controls]) { /* 5 */
   display: none;
   height: 0;
 }
 
 /* Forms
    ========================================================================== */
+
 /**
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
@@ -365,36 +356,15 @@ textarea {
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
 
-details, summary {
+details, summary, dialog {
   display: block;
-}
-
-dialog {
-  position: absolute;
-  left: 0; right: 0;
-  width: -moz-fit-content;
-  width: -webkit-fit-content;
-  width: fit-content;
-  height: -moz-fit-content;
-  height: -webkit-fit-content;
-  height: fit-content;
-  margin: auto;
-  border: solid;
-  padding: 1em;
-  background: white;
-  color: black;
-  display: block;
-}
-
-dialog:not([open]) {
-  display: none;
 }
 
 /* Misc
    ========================================================================== */
 
 /**
- * Add the correct display in IE 10 and IE 10+.
+ * Add the correct display in IE 10+.
  */
 
 [hidden], template {
