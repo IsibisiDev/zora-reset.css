@@ -1,5 +1,5 @@
 # Zora CSS Reset
-[![npm](https://img.shields.io/npm/v/zorareset.css.svg?style=flat-square)](https://www.npmjs.com/package/zorareset.css) [![Build Status](https://travis-ci.org/IsibisiDev/zora-reset.css.svg?branch=master)](https://travis-ci.org/IsibisiDev/zora-reset.css) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![](https://data.jsdelivr.com/v1/package/npm/zorareset.css/badge)](https://www.jsdelivr.com/package/npm/zorareset.css)
+[![npm](https://img.shields.io/npm/v/zorareset.css.svg?style=flat-square)](https://www.npmjs.com/package/zorareset.css) [![Build Status](https://travis-ci.org/IsibisiDev/zora-reset.css.svg?branch=master)](https://travis-ci.org/IsibisiDev/zora-reset.css) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![jsDelivr stats](https://data.jsdelivr.com/v1/package/npm/zorareset.css/badge)](https://www.jsdelivr.com/package/npm/zorareset.css)
 
 Zora Reset is a modern CSS Reset that correct the most common bugs in modern browsers without changing the useful default settings. It is light and does not invade the development space.
 
@@ -19,15 +19,15 @@ You can use Zora CSS Reset via CDN or download it and integrate it directly on y
 Unminified version:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zorareset.css@1.3.2/zora-reset.css" integrity="sha384-cYajUzHOAr9+vR6dSqgteHXoPVSqjKANJSPMpgGv7z+jz22oliUqcgtDU7y+mxci" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zorareset.css@latest/zora-reset.css" integrity="sha384-cYajUzHOAr9+vR6dSqgteHXoPVSqjKANJSPMpgGv7z+jz22oliUqcgtDU7y+mxci" crossorigin="anonymous">
 ```  
 
 Minified Version:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zorareset.css@1.3.2/zora-reset.min.css" integrity="sha384-zDE7yRSKeDKeneZ1Jd7ngQxtkfYQNiIn6USgWP0oFtv2W7PwWNmQWDDolatdhWRJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zorareset.css@latest/zora-reset.min.css" integrity="sha384-zDE7yRSKeDKeneZ1Jd7ngQxtkfYQNiIn6USgWP0oFtv2W7PwWNmQWDDolatdhWRJ" crossorigin="anonymous">
 ```
-or use [unpkg](https://unpkg.com/zorareset.css@1.3.2/) CDN
+or use [unpkg](https://unpkg.com/zorareset.css@latest/) CDN
 
 **Download**
 
