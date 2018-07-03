@@ -1,6 +1,12 @@
 theme: jekyll-theme-cayman
 title: Zora CSS Reset
-encoding: UTF-8
 description: A simple and modern CSS Reset
 show_downloads: true
+encoding: UTF-8
 github_url: https://github.com/IsibisiDev/zora-reset.css
+author: IsibisiDev (https://github.com/IsibisiDev)
+canonical_url: https://isibisidev.github.io/zora-reset.css/
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
