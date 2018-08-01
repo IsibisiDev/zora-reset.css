@@ -34,7 +34,7 @@ or use [unpkg](https://unpkg.com/zorareset.css@latest/) CDN
 [Click to download](https://github.com/IsibisiDev/zora-reset.css/archive/master.zip)
 
 ## Need Help?
-If you need help you can ask [on the forum](http://isibisitgbots.altervista.org/forum/) or [open an issue](https://github.com/IsibisiDev/zora-reset.css/issues/new)
+If you need help you can ask [on the forum](https://isibisitgbots.altervista.org/forum/) or [open an issue](https://github.com/IsibisiDev/zora-reset.css/issues/new)
 
 ## Browser support
 * Chrome

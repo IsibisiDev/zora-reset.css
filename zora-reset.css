@@ -1,4 +1,4 @@
-/*! zora-reset.css v1.3.3 | MIT License | github.com/IsibisiDev/zora-reset.css */
+/*! zora-reset.css v1.4.0 | MIT License | github.com/IsibisiDev/zora-reset.css */
 
 /* Document
    ========================================================================== */
@@ -81,7 +81,7 @@ pre {
  * 1. Remove the gray background on active links in IE 10.
  * 2. Add the correct cursor for links, buttons, checkboxes, submit button, 
  * upload button, input button and reset button (optionated).
- * 3. Remove the default blue border of some elements on browsers.
+ * 3. Remove the default blue border of some elements in all browsers.
  */
 
 a {
@@ -178,24 +178,24 @@ table {
 
 /**
  * 1. Remove the border on images inside links in IE 10.
- * 2. Remove bottom spacing under element.
+ * 2. Change the alignment on media elements in all browers.
  * 3. Remove default border on iframes. 
  * 4. Add responsive sizes for media content.
- * 5. Add the correct display in IE 8+ and Opera Mini.
+ * 5. Prevent modern browsers from displaying `audio` without controls.
  */
 
 img {
   border-style: none; /* 1 */
 }
 
-iframe {
-  border: 0; /* 3 */
-}
-
-img, video, audio, embed, iframe, object {
+img, video, audio, embed, iframe, object, svg {
   height: auto; /* 4 */
   max-width: 100%; /* 4 */
   vertical-align: middle; /* 2 */
+}
+
+iframe {
+  border: none; /* 3 */
 }
 
 audio:not([controls]) { /* 5 */
@@ -317,7 +317,8 @@ textarea {
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
 
-[type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button {
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
