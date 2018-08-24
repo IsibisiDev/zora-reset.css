@@ -19,13 +19,13 @@ You can use Zora CSS Reset via CDN or download it and integrate it directly on y
 Unminified version:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zorareset.css@latest/zora-reset.css" integrity="sha384-cYajUzHOAr9+vR6dSqgteHXoPVSqjKANJSPMpgGv7z+jz22oliUqcgtDU7y+mxci" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zorareset.css@latest/zora-reset.css" integrity="sha384-vUPRabnbPA0yG770/BvEXPbN8IvM0CzMuEYi1IlRemfMQ+Zg5KbLWNy9FLiLRKlU" crossorigin="anonymous">
 ```  
 
 Minified Version:
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zorareset.css@latest/zora-reset.min.css" integrity="sha384-zDE7yRSKeDKeneZ1Jd7ngQxtkfYQNiIn6USgWP0oFtv2W7PwWNmQWDDolatdhWRJ" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/zorareset.css@latest/zora-reset.min.css" integrity="sha384-pvNqlN37JxU7xTnrkUio1orOpkbp+SvedaWtJYGWJ82oiCjei+Wem7ItnPcJFLsY" crossorigin="anonymous">
 ```
 or use [unpkg](https://unpkg.com/zorareset.css@latest/) CDN
 

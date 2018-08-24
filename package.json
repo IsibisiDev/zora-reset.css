@@ -2,7 +2,7 @@
   "name": "zorareset.css",
   "title": "Zora CSS Reset",
   "author": "IsibisiDev",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A simple and modern CSS Reset",
   "main": "zora-reset.css",
   "license": "MIT",
@@ -25,10 +25,7 @@
     "zora-reset.min.css",
     "package.json"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/IsibisiDev/zora-reset.css.git"
-  },
+  "repository": "git://github.com/IsibisiDev/zora-reset.css.git",
   "bugs": {
     "url": "https://github.com/IsibisiDev/zora-reset.css/issues"
   },
@@ -36,6 +33,5 @@
     "autoprefixer": "^8.6.4",
     "stylelint": "^9.3.0",
     "stylelint-config-standard": "^18.2.0"
-  },
-  "dependencies": {}
+  }
 }
