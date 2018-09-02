@@ -1,37 +1,39 @@
 {
-  "name": "zorareset.css",
-  "title": "Zora CSS Reset",
-  "author": "IsibisiDev",
-  "version": "1.4.1",
-  "description": "A simple and modern CSS Reset",
-  "main": "zora-reset.css",
-  "license": "MIT",
-  "homepage": "https://isibisidev.github.io/zora-reset.css/",
-  "keywords": [
-    "css",
-    "reset",
-    "css3",
-    "cssreset",
-    "css-reset",
-    "reset-css"
-  ],
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "files": [
-    "LICENSE.md",
-    "README.md",
-    "zora-reset.css",
-    "zora-reset.min.css",
-    "package.json"
-  ],
-  "repository": "git://github.com/IsibisiDev/zora-reset.css.git",
-  "bugs": {
-    "url": "https://github.com/IsibisiDev/zora-reset.css/issues"
-  },
-  "devDependencies": {
-    "autoprefixer": "^8.6.4",
-    "stylelint": "^9.3.0",
-    "stylelint-config-standard": "^18.2.0"
-  }
+   "name": "zorareset.css",
+   "title": "Zora CSS Reset",
+   "author": "IsibisiDev",
+   "version": "1.4.1",
+   "description": "A simple and modern CSS Reset",
+   "main": "zora-reset.css",
+   "license": "MIT",
+   "homepage": "https://isibisidev.github.io/zora-reset.css/",
+   "keywords": [
+      "css",
+      "reset",
+      "css3",
+      "cssreset",
+      "css-reset",
+      "reset-css"
+   ],
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+   },
+   "files": [
+      "LICENSE.md",
+      "README.md",
+      "zora-reset.css",
+      "zora-reset.min.css",
+      "package.json"
+   ],
+   "repository": {
+      "type": "git",
+      "url": "git://github.com/IsibisiDev/zora-reset.css.git"
+   },
+   "bugs": {
+      "url": "https://github.com/IsibisiDev/zora-reset.css/issues"
+   },
+   "devDependencies": {
+      "autoprefixer": "^8.6.5",
+      "stylelint": "^9.5.0"
+   }
 }

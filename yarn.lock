@@ -2269,7 +2269,3 @@ yargs-parser@^10.0.0:
   resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-10.1.0.tgz#7202265b89f7e9e9f2e5765e0fe735a905edbaa8"
   dependencies:
     camelcase "^4.1.0"
-
-zorareset.css@1.4.0:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/zorareset.css/-/zorareset.css-1.4.0.tgz#a0dceb54da8d40ec6a5c9a33e9c5d3e27ac6892f"
